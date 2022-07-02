@@ -1,0 +1,91 @@
+
+body, 
+html{
+  margin: 0px ;
+    width: 100%;
+    height: 100%;
+    font-family:'Balsamiq Sans', cursive ;
+    background: url(https://wallpaperaccess.com/full/138668.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+html,
+body {
+  height: 100%;
+}
+
+
+
+.beat{
+    font-weight: 700;
+    border-radius: 0px;
+    /* text-transform:uppercase ; */
+    border: 400px;
+    height: 50px;
+    
+    animation: pulse 5s infinite; 
+
+}
+@keyframes pulse {
+    0% {
+      background-color: #eb12f3;
+    }
+    25% {
+      background-color: #04eb6477;
+    }
+    50%{
+        background-color: rgba(13, 220, 235, 0.507);
+    }
+
+75%{
+    background-color: rgba(231, 235, 21, 0.438);
+}
+  }
+
+
+  .text-uppercase{
+    font-size: 3rem;
+    color:rgb(203, 222, 54) ;
+}
+
+
+
+
+  
+
+
+.btn-primary{
+    background-color:#eb12f3 ;
+    border-color:#eb12f3  ;
+}
+
+.btn-xl{
+    padding: 1rem 2rem;
+}
+
+.btn-primary:hover{
+    background-color: #c121c7;
+    border-color: #eb12f3 ;
+    border-width: 1px;
+    border: 3px;
+}
+.buffer{
+    height:70px;
+}
+
+.beat a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.beat a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
